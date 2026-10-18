@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">DevOps architecture lab</title><desc id="desc">A source-to-production workflow with six capability lanes.</desc>
+<defs>
+ <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#111827"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="650" rx="18" fill="#080d17"/>
+<text x="600" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#e5e7eb">DEVOPS DELIVERY &amp; OPERATIONS MAP</text>
+<text x="600" y="70" text-anchor="middle" font-family="monospace" font-size="13" fill="#94a3b8">FROM COMMIT TO OBSERVABILITY</text>
+<!-- pipeline -->
+<g filter="url(#shadow)">
+ <rect x="55" y="100" width="210" height="85" rx="12" fill="url(#panel)" stroke="#00e5ff" stroke-width="1.5"/>
+ <rect x="295" y="100" width="210" height="85" rx="12" fill="url(#panel)" stroke="#38bdf8" stroke-width="1.5"/>
+ <rect x="535" y="100" width="210" height="85" rx="12" fill="url(#panel)" stroke="#a78bfa" stroke-width="1.5"/>
+ <rect x="775" y="100" width="160" height="85" rx="12" fill="url(#panel)" stroke="#34d399" stroke-width="1.5"/>
+ <rect x="965" y="100" width="180" height="85" rx="12" fill="url(#panel)" stroke="#fb923c" stroke-width="1.5"/>
+</g>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+ <text x="160" y="132" font-size="14" fill="#67e8f9">01 / SOURCE</text><text x="160" y="158" font-size="20" font-weight="700" fill="#f8fafc">Git · GitHub</text>
+ <text x="400" y="132" font-size="14" fill="#7dd3fc">02 / BUILD</text><text x="400" y="158" font-size="20" font-weight="700" fill="#f8fafc">Jenkins · Actions</text>
+ <text x="640" y="132" font-size="14" fill="#c4b5fd">03 / PACKAGE</text><text x="640" y="158" font-size="20" font-weight="700" fill="#f8fafc">Docker · Registry</text>
+ <text x="855" y="132" font-size="14" fill="#6ee7b7">04 / DEPLOY</text><text x="855" y="158" font-size="19" font-weight="700" fill="#f8fafc">Kubernetes</text>
+ <text x="1055" y="132" font-size="14" fill="#fdba74">05 / OPERATE</text><text x="1055" y="158" font-size="19" font-weight="700" fill="#f8fafc">Cloud platforms</text>
+</g>
+<g fill="none" stroke="url(#cyan)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M265 142h30"/><path d="M286 135l9 7-9 7"/>
+ <path d="M505 142h30"/><path d="M526 135l9 7-9 7"/>
+ <path d="M745 142h30"/><path d="M766 135l9 7-9 7"/>
+ <path d="M935 142h30"/><path d="M956 135l9 7-9 7"/>
+</g>
+<path d="M1055 185v35H160v-35" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="5 5"/>
+<text x="600" y="211" text-anchor="middle" font-family="monospace" font-size="12" fill="#94a3b8">FEEDBACK LOOP · METRICS · LOGS · TRACES</text>
+<!-- capability cards -->
+<g filter="url(#shadow)">
+ <rect x="55" y="255" width="345" height="150" rx="12" fill="#101827" stroke="#fb923c"/>
+ <rect x="427" y="255" width="345" height="150" rx="12" fill="#101827" stroke="#a78bfa"/>
+ <rect x="799" y="255" width="346" height="150" rx="12" fill="#101827" stroke="#34d399"/>
+ <rect x="55" y="430" width="345" height="150" rx="12" fill="#101827" stroke="#38bdf8"/>
+ <rect x="427" y="430" width="345" height="150" rx="12" fill="#101827" stroke="#f472b6"/>
+ <rect x="799" y="430" width="346" height="150" rx="12" fill="#101827" stroke="#facc15"/>
+</g>
+<g font-family="Arial,sans-serif">
+ <text x="78" y="287" font-size="16" font-weight="700" fill="#fdba74">☁ CLOUD &amp; NETWORKING</text>
+ <text x="78" y="321" font-size="16" fill="#e5e7eb">AWS · GCP · VPC · DNS</text><text x="78" y="347" font-size="16" fill="#e5e7eb">EC2 · EKS · GKE · Load Balancers</text><text x="78" y="378" font-size="12" fill="#94a3b8">Provision and operate secure cloud foundations</text>
+ <text x="450" y="287" font-size="16" font-weight="700" fill="#c4b5fd">🧱 INFRASTRUCTURE AS CODE</text>
+ <text x="450" y="321" font-size="16" fill="#e5e7eb">Terraform · Ansible</text><text x="450" y="347" font-size="16" fill="#e5e7eb">Repeatable environments · Configuration</text><text x="450" y="378" font-size="12" fill="#94a3b8">Make changes reviewable and reproducible</text>
+ <text x="822" y="287" font-size="16" font-weight="700" fill="#6ee7b7">📡 OBSERVABILITY</text>
+ <text x="822" y="321" font-size="16" fill="#e5e7eb">Prometheus · Grafana · CloudWatch</text><text x="822" y="347" font-size="16" fill="#e5e7eb">OpenTelemetry · Logs · Traces</text><text x="822" y="378" font-size="12" fill="#94a3b8">Spot anomalies and troubleshoot faster</text>
+ <text x="78" y="462" font-size="16" font-weight="700" fill="#7dd3fc">📦 CONTAINERS &amp; RELEASES</text>
+ <text x="78" y="496" font-size="16" fill="#e5e7eb">Docker · Kubernetes · Helm</text><text x="78" y="522" font-size="16" fill="#e5e7eb">Rolling updates · Health probes</text><text x="78" y="553" font-size="12" fill="#94a3b8">Deliver changes safely and consistently</text>
+ <text x="450" y="462" font-size="16" font-weight="700" fill="#f9a8d4">🔐 SECURITY</text>
+ <text x="450" y="496" font-size="16" fill="#e5e7eb">IAM · TLS · Secrets · Image scanning</text><text x="450" y="522" font-size="16" fill="#e5e7eb">Network boundaries · Least privilege</text><text x="450" y="553" font-size="12" fill="#94a3b8">Reduce exposure throughout delivery</text>
+ <text x="822" y="462" font-size="16" font-weight="700" fill="#fde047">⚙ AUTOMATION</text>
+ <text x="822" y="496" font-size="16" fill="#e5e7eb">Bash · Python · GitHub Actions</text><text x="822" y="522" font-size="16" fill="#e5e7eb">Jenkins · Repeatable runbooks</text><text x="822" y="553" font-size="12" fill="#94a3b8">Eliminate toil and standardize operations</text>
+</g>
+<text x="600" y="620" text-anchor="middle" font-family="monospace" font-size="13" fill="#64748b">DESIGNED FOR REPEATABILITY • SECURITY • RELIABILITY</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Abhishek Kumar — DevOps Engineer</title>
+<desc id="desc">Dark neon cloud and automation themed banner.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050816"/>
+    <stop offset=".55" stop-color="#111827"/>
+    <stop offset="1" stop-color="#17112f"/>
+  </linearGradient>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff"/>
+    <stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#334155" stroke-opacity=".38" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="260" rx="18" fill="url(#grid)"/>
+<path d="M0 220 C220 170 290 270 510 210 S850 140 1200 205" fill="none" stroke="#00e5ff" stroke-opacity=".17" stroke-width="2"/>
+<path d="M0 235 C220 185 290 285 510 225 S850 155 1200 220" fill="none" stroke="#a78bfa" stroke-opacity=".18" stroke-width="2"/>
+<g fill="none" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)">
+  <path d="M920 74h74l18 18h70"/>
+  <path d="M950 128h62l18-18h68"/>
+  <path d="M940 180h55l18-18h85"/>
+  <circle cx="920" cy="74" r="4" fill="#00e5ff"/>
+  <circle cx="950" cy="128" r="4" fill="#00e5ff"/>
+  <circle cx="940" cy="180" r="4" fill="#a78bfa"/>
+  <rect x="1090" y="76" width="48" height="34" rx="6"/>
+  <rect x="1098" y="135" width="40" height="32" rx="6"/>
+</g>
+<g transform="translate(850 80)" stroke="#00e5ff" stroke-width="2" fill="#0b1224">
+  <path d="M32 45c-14 0-25-10-25-23S18 0 31 0c9 0 17 5 21 13 14-4 27 7 27 20 0 12-10 22-22 22H32z" fill="#101e36"/>
+  <path d="M26 25l8 8 16-18" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="64" y="92" fill="#94a3b8" font-family="monospace" font-size="17" letter-spacing="4">CLOUD • AUTOMATION • RELIABILITY</text>
+<text x="60" y="151" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">ABHISHEK KUMAR</text>
+<text x="64" y="190" fill="url(#neon)" font-family="monospace" font-size="22" font-weight="600">DEVOPS ENGINEER  /  CLOUD AUTOMATION</text>
+<text x="64" y="225" fill="#cbd5e1" font-family="monospace" font-size="15">AWS  ·  GCP  ·  KUBERNETES  ·  CI/CD  ·  OBSERVABILITY</text>
+<rect x="60" y="36" width="170" height="4" rx="2" fill="url(#neon)"/>
+</svg>
